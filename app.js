@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const movieRoutes = require('./routes/movieRoutes');
-const port = 3000;
+const port = 3001;
 const mongoose = require('mongoose');
 
 const db = require('./config/db')
